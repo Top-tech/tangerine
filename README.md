@@ -1,2 +1,2 @@
 # tangerine
-qt
+UWP app
