@@ -131,6 +131,11 @@
     <None Include="tangerine_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\loading.gif" />
+    <Content Include="Assets\Images\loading1.gif" />
+    <Content Include="Assets\Images\loading2.gif" />
+    <Content Include="Assets\Images\tangerine.png" />
+    <Content Include="Assets\Images\top.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -154,6 +159,13 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.8</Version>
     </PackageReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\tangerineExtension\tangerineExtension.csproj">
+      <Project>{1cd45556-00dc-4984-a77e-82dd5ed4e203}</Project>
+      <Name>tangerineExtension</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

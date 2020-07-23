@@ -9,6 +9,16 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <WebView x:Name="webview"
+                 VerticalAlignment="Stretch"
+                 HorizontalAlignment="Stretch">
+        </WebView>
+        <Grid Name="splashAnimation" Background="#333333">
+            <Image MaxWidth="620"
+                   Source="../../../Assets/Images/loading1.gif"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center">
+            </Image>
+        </Grid>
     </Grid>
 </Page>

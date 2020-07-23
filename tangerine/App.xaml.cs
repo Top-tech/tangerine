@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using tangerineExtension;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
@@ -30,6 +31,7 @@ namespace tangerine
         {
             this.InitializeComponent();
             this.Suspending += OnSuspending;
+            Logger.Setup("tangerine");
         }
 
         /// <summary>
