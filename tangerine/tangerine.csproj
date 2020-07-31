@@ -18,7 +18,13 @@
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <WindowsXamlEnableOverview>true</WindowsXamlEnableOverview>
     <PackageCertificateKeyFile>tangerine_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>8F5694E0CB72E8440252005EE5192455BE76FEEA</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>BFC1AF70225FB42CF94A863DDFF158136716C189</PackageCertificateThumbprint>
+    <GenerateAppInstallerFile>False</GenerateAppInstallerFile>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+    <AppxBundle>Always</AppxBundle>
+    <AppxBundlePlatforms>x86|x64</AppxBundlePlatforms>
+    <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
+    <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
     <DebugSymbols>true</DebugSymbols>
@@ -136,7 +142,9 @@
     <Content Include="Assets\Images\loading1.gif" />
     <Content Include="Assets\Images\loading2.gif" />
     <Content Include="Assets\Images\tangerine.png" />
+    <Content Include="Assets\Images\tangerine.scale-100.png" />
     <Content Include="Assets\Images\top.jpg" />
+    <Content Include="Assets\Images\top.scale-100.jpg" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

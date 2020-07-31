@@ -1,0 +1,3 @@
+MainPackage=C:\fanbt\MyTest\personal\tangerine\tangerine\bin\x64\Debug\tangerine_1.0.4.0_x64_Debug.appx
+SymbolPackage=C:\fanbt\MyTest\personal\tangerine\tangerine\AppPackages\tangerine_1.0.4.0_Debug_Test\tangerine_1.0.4.0_x64_Debug.appxsym
+ResourcePack=C:\fanbt\MyTest\personal\tangerine\tangerine\bin\x64\Debug\tangerine_1.0.4.0_scale-100.appx
